@@ -1,0 +1,16 @@
+class Solution {
+    public int visibleBuildings(int arr[]) {
+        // code here
+        int count = 0;
+        int maxHeight = 0;
+        for(int i = 0; i < arr.length; i++)
+        {
+            if(arr[i] >= maxHeight)
+            {
+                count++;
+                maxHeight = arr[i];
+            }
+        }
+        return count;
+    }
+}
