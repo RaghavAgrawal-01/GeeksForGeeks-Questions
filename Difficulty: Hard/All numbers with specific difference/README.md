@@ -1,0 +1,6 @@
+<h2><a href="https://www.geeksforgeeks.org/problems/all-numbers-with-specific-difference3558/1">All numbers with specific difference</a></h2><h3>Difficulty Level : Difficulty: Hard</h3><hr><div class="problems_problem_content__Xm_eO" style="--text-color: var(--problem-text-color);"><p>Given two positive integers <strong>n</strong> and <strong>d</strong>, count the positive integers <strong>x</strong> from 1 to n such that&nbsp; '[x&nbsp; -&nbsp; (sum of digits of x)] &gt;= d'. In other words, the value of x should be at least d more than its sum of digits.<br><br></p><p><span style="font-size: 14pt;"><strong>Examples:</strong></span></p><pre><span style="font-size: 14pt;"><strong>Input: </strong>n = 13, d = 2
+<strong>Output: </strong>4
+<strong>Explanation: </strong>There are 4 numbers, 10, 11, 12 and 13.</span></pre><pre><span style="font-size: 14pt;"><strong>Input: </strong>n = 20, d = 10
+<strong>Output: </strong>5
+<strong>Explanation: </strong>20 is the only number from 1 to 20 because 20 - 2 &gt;= 10.
+</span></pre></div><br><p><span style=font-size:18px><strong>Topic Tags : </strong><br><code>Mathematics</code>&nbsp;<code>Binary Search</code>&nbsp;
