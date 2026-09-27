@@ -1,0 +1,10 @@
+<h2><a href="https://www.geeksforgeeks.org/problems/optimal-strategy-for-a-game-1587115620/1">Optimal Strategy For A Game</a></h2><h3>Difficulty Level : Difficulty: Medium</h3><hr><div class="problems_problem_content__Xm_eO" style="--text-color: var(--problem-text-color);"><p><span style="font-size: 18px;">Given an integer array <strong>arr[] </strong>of size<strong> </strong>n. The array elements represent n coins<strong> </strong>of values<strong> </strong>v<sub>1</sub>, v<sub>2</sub>, ....v<sub>n</sub>. <br>You play against an opponent in an alternating way. </span><span style="font-size: 18px;">In each turn, a player selects either the first or last coin from the row, removes it from the row permanently, and receives the coin's value. <br></span><span style="font-size: 18px;">Find the maximum possible amount of money you can win if you go first.<br><strong>Note:</strong> Both the players are playing optimally.</span></p>
+<p><strong><span style="font-size: 18px;">Examples:</span></strong></p>
+<pre><strong><span style="font-size: 18px;">Input: </span></strong><span style="font-size: 18px;">arr[] = [5, 3, 7, 10]
+<strong>Output: </strong>15<strong>
+Explanation: </strong></span><span style="font-size: 18px;">The user collects the maximum value as 15(10 + 5). It is guaranteed that we cannot get more than 15 by any possible moves.</span>
+</pre>
+<pre><strong><span style="font-size: 18px;">Input: </span></strong><span style="font-size: 18px;">arr[] = [8, 15, 3, 7]
+<strong>Output: </strong>22<strong>
+Explanation: </strong></span><span style="font-size: 18px;">The user collects the maximum value as 22(7 + 15). It is guaranteed that we cannot get more than 22 by any possible moves.</span></pre>
+<p><span style="font-size: 18px;"><strong>Constraints:</strong><br>2 ≤ n ≤ 10<sup>3</sup></span><br><span style="font-size: 18px;">1 ≤ arr[i] ≤ 10<sup>6</sup></span></p></div><p><span style=font-size:18px><strong>Company Tags : </strong><br><code>Amazon</code>&nbsp;<br><p><span style=font-size:18px><strong>Topic Tags : </strong><br><code>Dynamic Programming</code>&nbsp;<code>Arrays</code>&nbsp;<code>Recursion</code>&nbsp;
