@@ -1,0 +1,8 @@
+<h2><a href="https://www.geeksforgeeks.org/problems/smallest-distant-window3132/1">Smallest Window Length with All</a></h2><h3>Difficulty Level : Difficulty: Medium</h3><hr><div class="problems_problem_content__Xm_eO" style="--text-color: var(--problem-text-color);"><p><span style="font-size: 14pt;">Given a string&nbsp;<strong>s,</strong>&nbsp;your task is to find the&nbsp;length&nbsp;of the&nbsp;smallest<strong>&nbsp;</strong>window that contains<strong>&nbsp;</strong>all<strong>&nbsp;</strong>the characters of the given string at least once.</span></p><p><span style="font-size: 14pt;"><strong>Example:</strong></span></p><div><pre><span style="font-size: 14pt;"><strong>Input:</strong> s = "aabcbcdbca"
+<strong>Output:</strong> 4
+<strong>Explanation:</strong> Sub-String "dbca" has the smallest length that contains all the characters of string s.
+</span></pre></div><pre><span style="font-size: 14pt;"><strong>Input:</strong> s = "aaab"
+<strong>Output:</strong> 2
+<strong>Explanation:</strong> Sub-String "ab" has the smallest length that contains all the characters of string s.</span></pre><pre><span style="font-size: 14pt;"><strong>Input:</strong> s = "geeksforgeeks"
+<strong>Output:</strong> 7
+<strong>Explanation:</strong> There are multiple substring with smallest length that contains all characters of string s, "eksforg" and "ksforge". </span></pre></div><p><span style=font-size:18px><strong>Company Tags : </strong><br><code>Amazon</code>&nbsp;<code>Dailyhunt</code>&nbsp;<br><p><span style=font-size:18px><strong>Topic Tags : </strong><br><code>sliding-window</code>&nbsp;<code>Arrays</code>&nbsp;<code>Hash</code>&nbsp;<code>Strings</code>&nbsp;
