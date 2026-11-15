@@ -18,7 +18,8 @@ class Solution {
             vis[u] = true;
             ans += m;
             for(int j = 0; j < n; j++)
-                if(!vis[j]){
+                if(!vis[j])
+                {
                     d[j] = Math.min(d[j], Math.abs(a[u][0] - a[j][0]) + Math.abs(a[u][1] - a[j][1]));
                 }
         }
