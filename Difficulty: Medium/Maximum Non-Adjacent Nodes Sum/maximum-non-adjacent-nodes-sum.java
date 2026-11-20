@@ -49,17 +49,6 @@ class Node {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
 class Solution {
     int[] solve(Node root) {
         if(root == null)
