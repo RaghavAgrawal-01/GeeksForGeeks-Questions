@@ -1,4 +1,3 @@
-
 /* class Node
 {
     int data;
@@ -45,5 +44,3 @@ class Solution {
         return head;
     }
 }
-
-
