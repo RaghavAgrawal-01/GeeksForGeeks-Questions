@@ -1,0 +1,21 @@
+class Solution {
+    public int minCoins(int coins[], int sum) {
+        int[] dp = new int[sum+1];
+        dp[0] = 0;
+        for(int i=1; i<=sum; i++)
+        {
+            dp[i] = Integer.MAX_VALUE;
+        }
+        for(int i=1; i<=sum; i++)
+        {
+            for(int coin:coins)
+            {
+                if(i>=coin && dp[i-coin] != Integer.MAX_VALUE)
+                {
+                    dp[i] = Math.min(dp[i], dp[i-coin] +1);
+                }
+            }
+        }
+        return dp[sum]== Integer.MAX_VALUE ? -1:dp[sum];
+    }
+}
